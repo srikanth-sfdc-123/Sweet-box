@@ -1,1 +1,6 @@
-echo "I am Sample Test Groovy, Demo"
+def pipeline
+    node('slave') {
+        pipeline = load 'pipeline.groovy'
+        pipeline.functionA()
+    }
+    pipeline.functionB()
