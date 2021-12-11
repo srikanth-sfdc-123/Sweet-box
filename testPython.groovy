@@ -1,1 +1,1 @@
-build wait: false, job: ''
+build wait: false, job: 'I am Boolean'
