@@ -1,1 +1,1 @@
-build wait: false, job: 'I am Boolean'
+echo "I am developing jenkins pipeline"
